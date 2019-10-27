@@ -1,10 +1,8 @@
 import random
 
-foo = input("Please enter an integer: ")
+sides = int(input("Please tell me how many sides your dice has: "))
 
-int_foo = int(foo)
-#print(int_foo)
-#type(int_foo)
+roll = int(input("Please enter an how many times you would like to roll your dice: "))
 
-for i in range(int_foo):
-    print(random.randint(1, 6))
+for i in range(roll):
+    print(random.randint(1, sides))
