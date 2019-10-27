@@ -1,3 +1,7 @@
+# Roll a dice
+# How many sides
+# How many rolls
+
 import random
 
 sides = int(input("Please tell me how many sides your dice has: "))
